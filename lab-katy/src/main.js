@@ -31,8 +31,8 @@ class App extends React.Component {
           <h1>Generate Cowsay Lorem</h1>
         </header>
         <body>
-          <button onClick={this.handleClick}>Click Me!</button>
           <pre>{this.state.content}</pre>
+          <button onClick={this.handleClick}>Click Me!</button>
         </body>
       </div>
     );
